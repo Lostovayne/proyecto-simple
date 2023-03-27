@@ -1,0 +1,25 @@
+#verb-container {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	margin-top: 20px;
+}
+
+.verb-cell {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
+	height: 50px;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: white;
+	letter-spacing: 0.5rem;
+	text-align: center;
+	width: 3rem;
+	height: 3rem;
+}
+
+.strikethrough {
+	text-decoration: line-through;
+}
